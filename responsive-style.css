@@ -1,0 +1,20 @@
+@media (max-width:991){
+
+}
+
+@media (max-width:767px){
+
+    .home_wrapper div .card{
+        height: auto;
+        min-height: 350px;
+        padding:100px 80px 0px 50px;
+    }
+
+    .home_wrapper .card-body div{
+        margin-top: 0px;
+    }
+
+    .home_wrapper .card-body div a{
+        padding: 5px 2px 5px 2px;
+    }
+}

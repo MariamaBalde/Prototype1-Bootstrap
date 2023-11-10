@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Background color */
+    --primary-color: white;
+    --secondary-color: #008B8B;
+    --bg-dark-orang: #FF8C00;
+    --red-color: #FF0000;
+    --gradient-color: linear-gradient(180deg, #006666, #20B2AA);
+
+    /* Text color */
+    --primary-font: 'Roboto', sans-serif;
+    --text-black: #000000;
+    --text-white: #FFFFFF;
+}
+
+body {
+    font-family: sans-serif;
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* -----------------------------------header -------------------------------------*/
+
+.header_wrapper .navbar {
+    padding: 20px 0;
+}
+
+.header_wrapper .navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.header_wrapper .navbar-toggler {
+    border: 0;
+    color: var(--secondary-color);
+    line-height: 2px;
+}
+
+.header_wrapper .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.header_wrapper .navbar-nav .nav-item .nav-link {
+    position: relative;
+    font-size: 18px;
+    display: inline-block;
+    color: var(--text-black);
+}
+
+.header_wrapper .navbar-nav .main-btn {
+    border: 1px solid var(--bg-dark-orang);
+    background-color: var(--bg-dark-orang);
+    color: var(--text-white);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+/* -------------------------------------Home section ------------------------------------------ */
+
+.home_wrapper div .card {
+    background: linear-gradient(90deg, #006666, #20B2AA);
+    border-color: var(--linear-gradient);
+    height: 85%;
+    min-height: 350px;
+    color: var(--text-white);
+    padding: 100px 80px 0px 50px;
+}
+
+.home_wrapper .card-text {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.home_wrapper .card-body .button {
+    margin-top: 80px;
+}
+
+
+/* --------------------------------------------------Programme section --------------------------------- */
+
+.programme_wrapper .program1 .card {
+    background: var(--gradient-color);
+    color: var(--text-white);
+    border-color: var(--linear-gradient);
+    border-radius: 25px;
+}
+
+.programme_wrapper .card-body .card-title {
+    font-weight: 900;
+    line-height: 15px;
+}
+
+.programme_wrapper .card-body .row p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.programme_wrapper .program2 .card {
+    border-color: var(--secondary-color);
+    border-radius: 25px;
+}
+
+.programme_wrapper .program2 .card .card-text {
+    font-size: 18px;
+    text-align: start;
+}
+
+.programme_wrapper .program2 .card .btn {
+    font-size: 15px;
+    width: 100px;
+}
+
+
+
+/*-- ---------------------------------------Campus section------------------------------------------------- --*/
+
+.campus_wrapper .card-body {
+    padding: 50px 20px 50px 20px;
+}
+
+.campus_wrapper .card {
+    border-radius: 25px;
+}
+
+.campus_wrapper #rg {
+    border-color: red;
+    color: red;
+}
+
+.campus_wrapper #grn {
+    border-color: #008B8B;
+    color: var(--secondary-color);
+}
+
+.campus_wrapper #org {
+    border-color: #FF8C00;
+    color: var(--bg-dark-orang);
+}
+
+/*-- ---------------------------------------admission section------------------------------------------------- --*/
+
+.admission_wrapper .container-fluid ,.evenement_wrapper .container-fluid {
+    background-color: rgb(241, 65, 65);
+    color: var(--text-white);
+    padding-top: 50px;
+    padding-left: 50px;
+    /* padding: 50px 0px 0px 0px; */
+    width: 100%;
+    height: auto;
+}
+
+.admission_wrapper .img {
+    height: 50px;
+}
+
+.admission_wrapper #p1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*-- ---------------------------------------admission section end------------------------------------------------- --*/
+
+.coach_wrapper h3 {
+    font-weight: 700;
+}
+
+.coach_wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.coach_wrapper .main-btn , .evenement_wrapper .main-btn , .blog_wrapper .main-btn{
+    background-color: rgb(240, 68, 68);
+    /* width: 120px;
+       height: 40px; */
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.coach_wrapper .d-grid {
+    margin-bottom: 30px;
+}
+
+.coach_wrapper .presentation .card {
+    padding: 10px 0 10px 0;
+    border: 1px solid black;
+    border-radius: none;
+}
+
+.coach_wrapper .presentation .card .card-text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.coach_wrapper .d-flex{
+  margin-top: 100px;
+  }
+
+.coach_wrapper .d-flex p{
+  width: 20px;
+  height: 20px;
+}
+  
+/*-- ---------------------------------------evenement section------------------------------------------------- --*/
+
+  
+
+.evenement_wrapper .container-fluid{
+    padding-bottom: 100px;
+}
+
+.evenement_wrapper .container-fluid p , .evenement_wrapper .main-btn{
+    font-size: 14px;
+}
+
+/*-- ---------------------------------------blog section------------------------------------------------- --*/
+
+.blog_wrapper h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.blog_wrapper .row{
+ background-color:#bbd8de;
+  padding: 40px 30px 40px 30px;
+}
+
+.blog_wrapper .card{
+    border-color: white;
+    padding: 50px 20px 50px 20px;
+    border-radius: 20px;
+   }
+
+   .blog_wrapper .card .card-img{
+     height: 100px;
+   }
+
+/*-- ---------------------------------------footer section------------------------------------------------- --*/
+
+.footer_wrapper{
+    background-color: var(--secondary-color);
+    font-size: 12px;
+    color: var(--text-white);
+}
+
+.footer_wrapper ul li a i{
+  color: white;
+  font-size: 20px;
+}
+
+
